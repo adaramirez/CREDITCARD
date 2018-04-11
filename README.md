@@ -18,6 +18,7 @@ En esta parte se describe la funcionalidad del proyecto descrito en pasos.
 2. Revisar que el número de la tarjeta de crédito no contenga espacios.
 
 3. Establecer una función que verifique la validez de la tarjeta a través del algoritmo de Luhn. El cuál necesita cuatro pasos fundamentales.
+* Los números adquiridos deben revertirse. Ej. Si se ingresaron el 123 ahora serán 321.
 * Los números que se encuentran en la posición par deben multiplarse por dos. Y así se crea una nueva línea con nuevos dígitos.
 * Los dígitos de las cifras que sean mayores o iguales a diez deben sumarse. Ej. El 12, 1 + 2 = 3. Se vuelve a crear una nueva línea con nuevos dígitos. 
 * Ahora se suman todos los números de la línea. 
